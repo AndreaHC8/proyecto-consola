@@ -1,18 +1,21 @@
 ﻿using System;
 
-class Program;
+class Program
  {
       static void Main(string [] args)
        {
-   Console.WriteLine("Introduzca la primera palabra");
-    string cadena1=Console.Readline();
-   Console.WriteLine("Introduzca la segunda palabra");
-    string cadena2=Console.Readline();
-    
-    
-bool Resultado = cadena1.Equals(cadena2).ToString;
-    Console.WriteLine ("El resultado es" + cadena1.Equals.cadena2.ToString);
+           string mensajedeSalida;
 
-    Console.Readline();
-    }  
- }
+    mensajedeSalida = ("Introduzca la primera palabra");
+    Console.WriteLine (mensajedeSalida);
+        string cadena1= Console.ReadLine();
+    Console.WriteLine("Introduzca la segunda palabra");
+        string cadena2= Console.ReadLine();
+        
+        
+         bool Resultado = cadena1.Equals(cadena2).ToString;
+   
+
+        
+        }  
+    }

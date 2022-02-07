@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\console\\Console.csproj": {}
+    "C:\\Console\\proyecto-consola\\Console.csproj": {}
   },
   "projects": {
-    "C:\\console\\Console.csproj": {
+    "C:\\Console\\proyecto-consola\\Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\console\\Console.csproj",
+        "projectUniqueName": "C:\\Console\\proyecto-consola\\Console.csproj",
         "projectName": "Console",
-        "projectPath": "C:\\console\\Console.csproj",
+        "projectPath": "C:\\Console\\proyecto-consola\\Console.csproj",
         "packagesPath": "C:\\Users\\Educamosclm\\.nuget\\packages\\",
-        "outputPath": "C:\\console\\obj\\",
+        "outputPath": "C:\\Console\\proyecto-consola\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

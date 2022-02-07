@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WUr4yivH+3P8euTh1S+RBoDSItw8TZ92UhuwxmmhVrrIi7jyZXl9ug5F0JnDjpqx9bGu2qs0RGE2IObqCeFSWw==",
+  "dgSpecHash": "+xUsV40u+PxtO8FK/TMQy02EtRBE7wgOcN7CCOAA7uQp+B8g1w9QNqqEjjNGFbLBH29xmy4Sja2mGc1VPNpusg==",
   "success": true,
-  "projectFilePath": "C:\\console\\Console.csproj",
+  "projectFilePath": "C:\\Console\\proyecto-consola\\Console.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

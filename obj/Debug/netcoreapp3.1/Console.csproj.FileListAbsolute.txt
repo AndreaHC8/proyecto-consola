@@ -3,3 +3,8 @@ C:\console\obj\Debug\netcoreapp3.1\Console.GeneratedMSBuildEditorConfig.editorco
 C:\console\obj\Debug\netcoreapp3.1\Console.AssemblyInfoInputs.cache
 C:\console\obj\Debug\netcoreapp3.1\Console.AssemblyInfo.cs
 C:\console\obj\Debug\netcoreapp3.1\Console.csproj.CoreCompileInputs.cache
+C:\Console\proyecto-consola\obj\Debug\netcoreapp3.1\Console.csproj.AssemblyReference.cache
+C:\Console\proyecto-consola\obj\Debug\netcoreapp3.1\Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Console\proyecto-consola\obj\Debug\netcoreapp3.1\Console.AssemblyInfoInputs.cache
+C:\Console\proyecto-consola\obj\Debug\netcoreapp3.1\Console.AssemblyInfo.cs
+C:\Console\proyecto-consola\obj\Debug\netcoreapp3.1\Console.csproj.CoreCompileInputs.cache

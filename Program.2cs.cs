@@ -9,13 +9,10 @@ class Program
     mensajedeSalida = ("Introduzca la primera palabra");
     Console.WriteLine (mensajedeSalida);
         string cadena1= Console.ReadLine();
+
+    
     Console.WriteLine("Introduzca la segunda palabra");
         string cadena2= Console.ReadLine();
-        
-        
-         bool Resultado = cadena1.Equals(cadena2).ToString;
-   
-
-        
-        }  
+                 
+    }
     }

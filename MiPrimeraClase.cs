@@ -1,19 +1,17 @@
 ﻿using System;
 
-public class mensajede 
+public class MiPrimeraClase
 {
-   public string mensajedeEntrada { get; set;}
-
+   public string mensajedeSalida { get; set;}
+   public string MensajedeEntrada { get; set;}
    public void Ejecutar ()
    {
-     string Ejecutar ;
-     Console.WriteLine (mensajedeSalida);
+     Console.WriteLine(mensajedeSalida);
+     MensajedeEntrada = Console.ReadLine();
 
-     mensajedeEntrada = Console.ReadLine();
-
-     Console.WriteLine (mensajedeSalida + mensajedeEntrada );
-     
-   }
+     Console.WriteLine(mensajedeSalida + MensajedeEntrada);
+     }
+   
 }
 
 

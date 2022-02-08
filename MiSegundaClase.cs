@@ -1,17 +1,51 @@
 using System;
 
-public class MiSegundaClase
+namespace consola
 {
-     static void Main(string [] args )
-    {
-        string mensajedeSalida;
 
-         mensajedeSalida = ("This is the New World Order");
-         Console.WriteLine (mensajedeSalida); 
+     public class MiSegundaClase
+     {
+         public MiSegundaClase()
+         {
+         }
+         public MiSegundaClase(int numeroEntrada, string mensaje)
+         {
+            this.NumeroEntrada = numeroEntrada;
+            this.Mensaje = mensaje;
+         }
+          public string Mensaje { get; set; }
+          public int NumeroEntrada { get; set; }
 
-         mensajedeSalida =  Console.ReadLine ();
-              }
-    
 
+          public void IncrementarCinco ()
+          {
+             int incremento = 1;
 
+             while (incremento < 5)
+             {
+                NumeroEntrada++;
+                Console.WriteLine(NumeroEntrada);
+                incremento++;
+             }
+               
+
+          }
+          
+          public void Escribir ()
+          {
+             Console.WriteLine (Mensaje + NumeroEntrada.ToString());
+          }
+          public void AlejardelCero ()
+          {
+             if (NumeroEntrada >=0)
+             {
+                NumeroEntrada++;
+             }
+             else 
+             {
+                NumeroEntrada --;
+             }
+          }
+     
+}
 }

@@ -1,6 +1,8 @@
 ﻿using System;
-
-class Program
+/**
+namespace Consola
+{
+class Program2
  {
       static void Main(string [] args)
        {
@@ -16,3 +18,5 @@ class Program
                  
     }
     }
+}
+**/

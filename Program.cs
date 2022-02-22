@@ -1,19 +1,21 @@
-﻿using System;
+using System;
 
-namespace Console ;
+namespace consola
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+             
+            
+            MiSegundaClase miSegundaClase = new MiSegundaClase();
+            miSegundaClase.Mensaje = "Este es el número de entrada: ";
+            miSegundaClase.NumeroEntrada = 1;
+            miSegundaClase.Incremetar();
+            miSegundaClase.Escribir();
 
-class Program ;
- {
- static void Main (string [] args);
-        string mensajedeSalida;
-
-        mensajedeSalida = "HC4L";
-        Console.WriteLine (mensajedeSalida) ;
-
-        mensajedeSalida = "Intentando programar";
-        Console.Write(mensajedeSalida);
-        mensajedeSalida = Console.Readline ();
-       Console.WriteLine("Tu mensaje es:" + mensajedeSalida);
-       Console.Readline() ;
-    }  
- }
+            Console.ReadKey();
+        }
+    }
+    
+}

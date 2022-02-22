@@ -1,17 +1,16 @@
-﻿using System;
+using System;
 
-public class Vehiculo 
+public class MiPrimeraClase
 {
-   public string mensajedeEntrada { get; set;}
+    public string MensajeDeSalida { get; set; }
+    public string MensajeDeEntrada { get; set; }
+    public void Ejecutar()
+    {
+        Console.WriteLine(MensajeDeSalida);
 
-   public void Ejecutar ()
-   {
-     Console.Writeline(mensajedeSalida);
+        MensajeDeEntrada = Console.ReadLine();
 
-     mensajedeEntrada = Console.ReadLine();
-
-     Console.WriteLine (mensajedeSalida + mensajedeEntrada );
-     
-   }
+        Console.WriteLine (MensajeDeSalida + MensajeDeEntrada);
+        
+    }
 }
-

@@ -1,10 +1,24 @@
-﻿using System;
-
-public class Vehiculo 
+public class Vehiculo
 {
-   public string Matrícula { get; set;}
+    public string Matricula { get; set; }
 
-   public void Arrancar ();
-   {}
+    public void Arrancar()
+    {
+
+    }
+
+    public void Mover()
+    {
+
+    }
+
+    public void Mover(int metros)
+    {
+
+    }
+
+    public void Mover(string direccion)
+    {
+        
+    }
 }
-

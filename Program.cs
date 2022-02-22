@@ -6,13 +6,11 @@ namespace consola
       {
                 static void Main(string [] args)
         {
-                MiSegundaClase miSegundaClase = new MiSegundaClase();
-                miSegundaClase.Mensaje = "Este es el numero de entrada";
-                miSegundaClase.NumeroEntrada = 1;
-                miSegundaClase.IncrementarCinco();
-                miSegundaClase.Escribir ();
+                     MiPrimeraClase objetoMiPrimeraClase = new MiPrimeraClase();
+                     objetoMiPrimeraClase.MensajeDeSalida = "Hola Mundo";
+                     objetoMiPrimeraClase.Ejecutar();
 
-                Console.ReadKey();
+                     Console.WriteLine("Escrito desde Program: " + objetoMiPrimeraClase.MensajeDeEntrada);
         }  
                 
 
